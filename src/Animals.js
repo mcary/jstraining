@@ -1,6 +1,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import SingleAnimal from 'SingleAnimal';
+import Header from 'Header';
 
 export default class Animals extends Component {
 
@@ -8,7 +9,7 @@ export default class Animals extends Component {
     const { animals } = this.props;
     return (
       <span>
-        <h1> Animals are great. </h1>
+        <Header />
         <ul className="items-list">
           {animals.map((animal, i) => {
             return <SingleAnimal key={i} animal={animal} />;
