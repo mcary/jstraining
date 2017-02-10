@@ -6,6 +6,7 @@ require('file?name=[name].[ext]!../index.html');
 import ReactDOM from 'react-dom';
 import React from 'react';
 import Animals from 'Animals';
+import button from 'button';
 
 
 const animals = [{
